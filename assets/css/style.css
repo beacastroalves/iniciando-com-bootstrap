@@ -1,0 +1,65 @@
+:root {
+  --bs-link-color:#914d4f;
+  --bs-link-hover-color:#6e3f41;
+}
+
+.btn {
+  --bs-btn-bg: #a66062;
+  --bs-btn-border-color: #914d4f;
+  --bs-btn-hover-bg: #914d4f;
+  --bs-btn-hover-border-color: #914d4f;
+  --bs-btn-active-bg: #6e3f41;
+  --bs-btn-active-border-color: #6e3f41;
+
+}
+
+main {
+  margin-top: 5rem;
+}
+
+section {
+  scroll-margin-top: 6rem;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+/* a66062 cor */
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-item::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, #6e3f41);
+  position: absolute;
+}
+
+.card-options img {
+  height: 300px;
+  object-fit: cover;
+}
+.modal-body  {
+  display: inline-flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.modal-body img {
+    height: 50px;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}

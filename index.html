@@ -1,11 +1,418 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auditmax Contabilidade</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/auditmax logomarca.png" alt="Logomarca da empresa auditmax contabilidade">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Fale Conosco</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-primary" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <main class="mb-5">
+    <!-- Carousel -->
+    <header id="carousel-contabil" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-contabil" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-contabil" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-contabil" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active img1">
+          <img src="assets/images/1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Uma contabilidade sólida é o alicerce do seu crescimento.</h5>
+            <p>Auditmax e você construindo o seu futuro financeiro</p>
+          </div>
+        </div>
+        <div class="carousel-item img2">
+          <img src="assets/images/4.png" class="d-block w-100" alt="imagem para contabilidade">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Navegue pelas finanças com segurança</h5>
+            <p>Na Auditmax transformamos complexidade em clareza.</p>
+          </div>
+        </div>
+        <div class="carousel-item img3">
+          <img src="assets/images/3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Potencialize seus negócios com uma contabilidade estratégica.</h5>
+            <p>A Auditmax desbloqueia o potencial das suas finanças.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-contabil" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-contabil" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </header>
+
+    <!-- Quote -->
+    <figure>
+      <blockquote class="blockquote">
+        <h3 class="fw-lighter text-center fst-italic mt-5">"A contabilidade é o mapa que guia o empreendedor através da
+          selva dos negócios."</h3>
+      </blockquote>
+      <figcaption class="blockquote-footer text-center">
+        Inspirado em <cite title="Source Title">Sun Tzu, "A Arte da Guerra"</cite>
+      </figcaption>
+    </figure>
+
+    <!-- About Cards -->
+    <section id="about" class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3" style="max-width: 560px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/images/6.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mb-3">5 Motivos para contratar nossos serviços contábeis</h5>
+                  <h6 class="card-subtitle text-muted mb-2">Valorização da sua empresa</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Conformidade Legal</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Planejamento Tributário</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Economia de Tempo e Dinheiro</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Segurança nas Relações Trabalhistas</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3" style="max-width: 560px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/images/7.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title mb-2">O que eu preciso para abrir uma empresa</h5>
+                  <h6 class="card-subtitle text-muted mb-2">Defina o Tipo de Empresa</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Escolha do Nome Empresarial</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Elaboração do Contrato Social</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Registro na Junta Comercial de sua Região</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Obtenha o CNPJ e Licenças de Funcionamento</h6>
+                  <h6 class="card-subtitle text-muted mb-2">Cumprimento as Obrigações Fiscais</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="services" class="container mt-5 mb-5">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="accounting-tab" data-bs-toggle="tab" data-bs-target="#accounting-tab-pane" type="button" role="tab" aria-controls="accounting-tab-pane" aria-selected="true">Soluções Contábeis</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="financial-tab" data-bs-toggle="tab" data-bs-target="#financial-tab-pane" type="button" role="tab" aria-controls="financial-tab-pane" aria-selected="false">Soluções Financeiras</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="solution-tab" data-bs-toggle="tab" data-bs-target="#solution-tab-pane" type="button" role="tab" aria-controls="solution-tab-pane" aria-selected="false">Outras Soluções</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="accountingTabContent">
+        <div class="tab-pane fade show active" id="accounting-tab-pane" role="tabpanel" aria-labelledby="accounting-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/trabalhista.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Trabalhista</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/previdenciaria" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Previdenciária</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/fiscal.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Fiscal</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/tributaria.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Tributária</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/societaria.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Societária</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/legalização.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Legalização de empresas​​</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="financial-tab-pane" role="tabpanel" aria-labelledby="financial-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/trabalhista.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Trabalhista</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/previdenciaria" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Previdenciária</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/fiscal.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Fiscal</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/tributaria.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Tributária</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/societaria.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Societária</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/legalização.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Legalização de empresas​​</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="solution-tab-pane" role="tabpanel" aria-labelledby="solution-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/trabalhista.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Trabalhista</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/previdenciaria" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Previdenciária</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/fiscal.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Fiscal</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/tributaria.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Tributária</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/societaria.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Contabilidade Societária</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-options">
+                <img src="assets/images/legalização.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Legalização de empresas​​</h5>
+                    <p class="card-text">
+                      Escreva um breve texto aqui
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <section id="contact" class="container text-center mb-5">
+      <!-- Button modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
+        Clique aqui e tenha um atendimento personalizado
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="contactModalLabel">Queremos te ajudar!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <a href="https://wa.me/5585986942521?fbclid=PAZXh0bgNhZW0CMTEAAaazHsEDU3EtoNUqiR-S0-8eeWpiqYPAIFOC9TEwaos1lCfmxrzOyqpJ4D0_aem_ZnHA-M_r7IaHBqCghy_z-g." target="_blank">
+                <img src="assets/svg/whatsapp-128-svgrepo-com.svg" alt="icone whatsapp">
+              </a>
+              <a href="https://www.instagram.com/auditmaxcontabilidade/" target="_blank">
+                <img src="assets/svg/instagram-167-svgrepo-com.svg" alt="icone instagram">
+              </a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+   <footer class="text-center p-5 mt-5 text-light" style="background-color: #a66062;">
+    <img width="160" src="assets/images/auditmax branca logomarca.png" alt="Logomarca auditmax contabilidade">
+    <p class="mt-2 mb-0 fw-bold">
+      Auditmax Contabilidade | Contabilidade sob medida para o seu negócio.
+    </p>
+    <p>(85) 98694-2521</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
